@@ -1,0 +1,31 @@
+{
+  "name": "ts-npm-package-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && pnpm run copy-assets",
+    "clean": "rimraf dist",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "tsc:watch": "tsc --noEmit --watch",
+    "fix:all": "pnpm run lint:fix && pnpm run format:fix",
+    "prepare": "husky",
+    "preinstall": "npx only-allow pnpm",
+    "prepublishOnly": "pnpm run clean && pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.2",
+  "devDependencies": {
+    "@pixpilot/dev-config": "^1.1.5",
+    "eslint": "^8.55.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "typescript": "^5.3.3"
+  }
+}
