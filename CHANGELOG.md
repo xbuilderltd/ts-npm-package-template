@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/pixpilot/ts-npm-package-template/compare/v1.1.0...v1.1.1) (2025-06-29)
+
+
+### Bug Fixes
+
+* remove npm authentication setup from release workflow ([dd2229a](https://github.com/pixpilot/ts-npm-package-template/commit/dd2229ace5a15aced1398945c946066d1df64290))
+
 # [1.1.0](https://github.com/pixpilot/ts-npm-package-template/compare/v1.0.0...v1.1.0) (2025-06-29)
 
 
