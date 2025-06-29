@@ -18,4 +18,4 @@ on:
 
 jobs:
   analyze:
-    uses: pixpilot/dev-config/.github/workflows/codeql-analysis.yml@main
+    uses: pixpilot/dev-config/.github/workflows/reusable/codeql-analysis.yml@main
