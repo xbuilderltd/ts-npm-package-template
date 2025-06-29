@@ -5,8 +5,8 @@
     "moduleResolution": "nodenext",
     "declaration": true,
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "."
   },
-  "include": ["src"],
+  "include": ["src", "test"],
   "exclude": ["node_modules", "build", "coverage", "dist"]
 }

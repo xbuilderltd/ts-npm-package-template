@@ -112,7 +112,6 @@ public
 .pnp.*
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo

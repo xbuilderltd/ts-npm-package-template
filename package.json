@@ -15,7 +15,9 @@
     "fix:all": "pnpm run lint:fix && pnpm run format:fix",
     "prepare": "husky",
     "preinstall": "npx only-allow pnpm",
-    "prepublishOnly": "pnpm run clean && pnpm run build"
+    "prepublishOnly": "pnpm run clean && pnpm run build",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
@@ -23,9 +25,12 @@
   "packageManager": "pnpm@10.12.2",
   "devDependencies": {
     "@pixpilot/dev-config": "^1.1.5",
+    "@types/jest": "^30.0.0",
     "eslint": "^8.55.0",
     "husky": "^9.1.7",
+    "jest": "^30.0.3",
     "prettier": "^3.6.2",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.3.3"
   }
 }
