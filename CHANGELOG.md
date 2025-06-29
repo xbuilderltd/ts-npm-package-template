@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/pixpilot/ts-npm-package-template/compare/v1.0.0...v1.1.0) (2025-06-29)
+
+
+### Bug Fixes
+
+* update .eslintignore and .prettierignore to include CHANGELOG.md ([4403425](https://github.com/pixpilot/ts-npm-package-template/commit/44034253484a07cffad87c227c457e420bd32c48))
+
+
+### Features
+
+* add new feature ([89f0b28](https://github.com/pixpilot/ts-npm-package-template/commit/89f0b288d98ec62890a6b968f2a5fffc568b62ba))
+
 # 1.0.0 (2025-06-29)
 
 ### Bug Fixes
