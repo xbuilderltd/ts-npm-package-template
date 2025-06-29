@@ -37,6 +37,9 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
           echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
 
+      - name: Install dependencies
+        run: pnpm install
+
       - name: Build package
         run: pnpm run build
 
