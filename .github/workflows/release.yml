@@ -43,17 +43,6 @@ jobs:
       - name: Build package
         run: pnpm run build
 
-      - name: Check if NPM_TOKEN is set
-        run: |
-          if [ -z "${NPM_TOKEN}" ]; then
-            echo "NPM_TOKEN is NOT set"
-            exit 1
-          else
-            echo "NPM_TOKEN last 5 chars : ${NPM_TOKEN: -5}"
-          fi
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Release with semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
