@@ -52,5 +52,11 @@
     "semantic-release": "^24.2.5",
     "ts-jest": "^29.4.0",
     "typescript": "^5.3.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,yml}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
